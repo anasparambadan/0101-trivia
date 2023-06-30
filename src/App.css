@@ -1,0 +1,72 @@
+.main-heading{
+  color: rgb(255, 245, 129);
+  text-align: center;
+  text-decoration: underline;
+}
+.home{
+ display: flex;
+ justify-content: center;
+
+}
+ul{
+  list-style-type: none;
+}
+.submitButton{
+  background-color: rgb(58, 116, 254);
+  width: 200px;
+  border-radius: 10px;
+  color: rgb(250, 250, 250);
+  padding:10px 0;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.disabled{
+  background-color: rgb(142, 176, 255);
+  width: 200px;
+  border-radius: 10px;
+  color: rgb(78, 78, 78);
+  padding:10px 0;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  color: rgb(243, 243, 243);
+  padding: 20px 0px;
+}
+li{
+  margin-top: 5px; 
+}
+input{
+  cursor: pointer;
+}
+.result{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(232, 232, 232);
+  height: 100vh;
+  justify-content: center;
+}
+.score{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(209, 233, 0);
+}
+.answer{
+  font-size: larger;
+}
+.reset-button{
+
+  width: 100px;
+  padding: 10px 5px;
+  background-color: rgb(85, 85, 223);
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  color:white;
+  
+}
+
